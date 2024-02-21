@@ -30,7 +30,7 @@ def find_files(folder_path, branch_name=None):
 
 main_max_version = find_files(
     "snowflake/prd",
-    "master",
+    "main",
 )
 
 print("Maximum version is:", main_max_version)
